@@ -28,5 +28,5 @@ jobs:
       with:
         app-name: 'webappbycyril'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_3e0d6cd8595e4d5c9f5961ad376001db }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_ba95b0efb2004779b5a97ed2ba0ffcc9 }}
         package: '${{ github.workspace }}/target/*.jar'
